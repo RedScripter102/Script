@@ -2620,12 +2620,3 @@ function Kavo.CreateLib(kavName, themeList)
     return Tabs
 end
 return Kavo
-
-local Window = Library.CreateLib("Die of Death [RedScripter102 hub]", "BloodTheme")
-
-local Tab = Window:NewTab("Player")
-local PlayerSection = Tab:NewSection("i Made this Script")
-
-PlayerSection:NewButton("Inf MaxStamina", "it set your Maxstamina 100/120/90 into inf | NOT stamina btw", function()
-player:kick("bro is sigma")
-end)
