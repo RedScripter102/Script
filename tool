@@ -2620,6 +2620,7 @@ function Kavo.CreateLib(kavName, themeList)
     return Tabs
 end
 return Kavo
+
 local Window = Library.CreateLib("Die of Death [RedScripter102 hub]", "BloodTheme")
 
 local Tab = Window:NewTab("Player")
